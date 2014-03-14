@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: No words
+author: jason
+author_login: jason
+author_email: jason@jthompson.ca
+wordpress_id: 199
+wordpress_url: http://jthompson.ca/?p=199
+date: 2012-10-12 19:55:17.000000000 -04:00
+categories:
+- Uncategorized
+tags:
+- observations
+comments: []
+---
+<img title="IMG_20121008_184243.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20121008_184243.jpg" />
+
+
+
+<img title="IMG_20121008_184127.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20121008_184127.jpg" />
+
+
+
+<img title="IMG_20120927_192157.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20120927_192157.jpg" />
+
+
+
+<img title="IMG_20120924_174148.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20120924_174148.jpg" />
+
+

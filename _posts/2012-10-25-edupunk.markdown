@@ -1,0 +1,135 @@
+---
+layout: post
+status: publish
+published: true
+title: Edupunk
+author: jason
+author_login: jason
+author_email: jason@jthompson.ca
+wordpress_id: 205
+wordpress_url: http://jthompson.ca/?p=205
+date: 2012-10-25 13:29:02.000000000 -04:00
+categories:
+- Uncategorized
+tags:
+- education
+- DNLE
+- storytelling
+- ds106
+comments:
+- id: 33
+  author: Jim Groom
+  author_email: jimgroom@gmail.com
+  author_url: http://bavatuesdays.com
+  date: '2012-10-25 13:39:16 -0400'
+  date_gmt: '2012-10-25 13:39:16 -0400'
+  content: I love the marrying of EDUPUNK to ds106, it makes me warm up again to the
+    idea of EDUPUNK which for a couple of years became an excuse for neoliberals to
+    tell us why we need to disinvest public education because it is failing us. That
+    is not the idea, the idea is to empower public education to create and explore
+    freely outside the market logic.
+- id: 35
+  author: Tom
+  author_email: bionicteaching@gmail.com
+  author_url: http://bionicteaching.com
+  date: '2012-10-25 16:00:31 -0400'
+  date_gmt: '2012-10-25 16:00:31 -0400'
+  content: I'd argue that anyone with the inclination has the skills to create their
+    own online identity.  This is lowest common denominator consumer oriented technology
+    use.  My 6 year old can handle it. Inclination is a whole different argument and
+    one that probably plays the main role.
+- id: 36
+  author: jason
+  author_email: jason@jthompson.ca
+  author_url: http://www.jthompson.ca
+  date: '2012-10-29 00:09:41 -0400'
+  date_gmt: '2012-10-29 00:09:41 -0400'
+  content: "I supposed I should have entitled this piece \"ds106\" rather than \"Edupunk\".
+    I just discovered the idea through your post, Jim, and it led me to ds106. Tom,
+    inclination is important, but being involved with a community of similarly inclined
+    folks is also important. I really like the notion of a network or community of
+    learners who are driven by a DIY approach. Our kids can figure out the technology
+    behind these technologies, but they often show that they don't really understand
+    the implications of what they use those platforms to say. Then again, they can
+    totally surprise us with their brilliance on these matters.\r\n\r\nI'm glad to
+    have discovered this online community full of folks creatively engaging with ideas
+    around education.\r\n\r\nbtw, sorry to both of you for taking so long to okay
+    your comments. Maybe I don't have such a command of the technology myself..."
+- id: 37
+  author: Tom
+  author_email: bionicteaching@gmail.com
+  author_url: http://bionicteaching.com
+  date: '2012-10-29 18:51:34 -0400'
+  date_gmt: '2012-10-29 18:51:34 -0400'
+  content: "No worries about comment response times. \r\n\r\nNo question communities
+    matter and the Internet is a good place to find them focused on any topic you'd
+    like.  \r\n\r\nI'm not arguing that the kids know what they are doing. No magical
+    digital native talk from me. I was trying to say if a 6 year old can push the
+    right buttons to do whatever then the thing holding an adult back is not technology
+    but inclination and interest.  Too often I feel adults are let of the hook because
+    technology is portrayed as some complicated, complex monstrosity.  That's just
+    not the case anymore with the tools you need for this type of interaction.   It's
+    almost harder not to build a digital identity.\r\n\r\nFWIW, you might want to
+    install a plugin to let people subscribe to comments. It'll increase the likelyhood
+    that people will be back to complete conversations."
+---
+<div class="note">
+  
+    This is part of a series of posts I'll be doing related to <a href="http://venture-lab.org/education">Designing a New Learning Environment</a>, an online course I'm taking through Stanford University's Venture Lab. You can find all the posts in this series <a href="/topics/dnle/">here</a>.
+  
+
+
+</div>
+
+One issue I've had with <a href="http://www.venture-lab.org/education">Designing a New Learning Environment</a> (DNLE) is with <a href="http://www.venture-lab.org/education">the platform it runs on called Venture Labs</a>. While the site is visually appealing, its interaction design has not been well thought out. For example, it takes about three or four page jumps to get from the login screen to the classroom interface for a particular class. For an online educational platform, this isn't good enough. Assuming a student is taking more than one class, it should only take two jumps to get there:
+
+
+
+<ol>
+<li>A page listing classes after login </li>
+<li>With each class link leading directly to the classroom interface. </li>
+</ol>
+
+The platform is full of little issues like this and, to their credit, the stanford Student team who developed it is asking for our input.
+
+
+
+I bring this up, not to launch into an analysis of the Venture Lab platform, but as a way of introducing an educational philosophy that takes a completely different approach: <a href="http://en.wikipedia.org/wiki/Edupunk">edupunk</a>, is a DIY approach to teaching and learning inspired by the DIY ethos of the punk movement. The term was first used by instructional technologist, Jim Groom in <a href="http://bavatuesdays.com/the-glass-bees/">a blog post that railed against the commodification of education technology</a>. And you can see the edupunk philosophy in action at <a href="http://ds106.us/about/">ds106</a>, an education program to teach digital storytelling:
+
+
+
+<blockquote>
+  Digital Storytelling (also affectionately known as ds106) is an open, online course that happens at various times throughout the year at the University of Mary Washington... but you can join in whenever you like and leave whenever you need. This course is free to anyone who wants to take it, and the only requirements are a real computer, a hardy internet connection, preferrably a domain of your own and some commodity web hosting, and all the creativity you can muster.
+
+
+</blockquote>
+
+The interesting thing about ds106 as an educational platform is that it is the hub of a network of learners and nothing more. Students use existing online tools such as <a href="http://www.flickr.com">Flickr</a>, <a href="http://www.soundcloud.com">Soundcloud</a> and their own blogs to:
+
+
+
+<blockquote>
+  design and build an online identity (if you don't have one already) and narrate your process throughout the fifteen week semester. Given this, you will be expected to openly frame this process and interact with one another throughout the course as well as engage and interact with the world beyond as a necessary part of such a development.
+
+
+</blockquote>
+
+The ds106 website serves as a hub to aggregate class materials, class assignments and students' online activities related to the class. As the site puts it, "it ain't no silly <a href="http://en.wikipedia.org/wiki/Massive_open_online_course">MOOC</a>".
+
+
+
+I'm aware that this approach to online education is, in many ways, diametrically opposed to the Venture Lab model of educational environment, but if your goal is to create a MOOC, it's worth your time to consider the ds106 model. It made me realise that perhaps the Venture Lab platform is over-engineered. For example, I find it frustratingly difficult to discover and follow what the other students in DNLE have to say. Sure, the folks behind Venture Labs could improve their journal and forum interfaces, but these problems have been solved a number of times already. There are already great blogging platforms and it's trivial to aggregate tweets and blog posts by subject and author.
+
+
+
+The ds106 model embraces the nature of a worldwide web composed of <a href="http://www.smallpieces.com/index.html">"small pieces loosely joined"</a> (David Weinberger). And it's arguably more open then the MOOC model.
+
+
+
+That said, it's not perfect. For many types of online courses, a MOOC would be better. Not everyone has the skills or inclination to create and maintain their own online identities. But for a course on digital storytelling or designing new learning environments I would argue that these skills are essential to the course content.
+
+
+
+In any case, a close examination of a MOOC-free educational environment is an important step in designing a better MOOC because it forces us to face fundamental questions about what we are doing and why when we design educational environments.
+
+

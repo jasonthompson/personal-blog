@@ -1,0 +1,30 @@
+---
+layout: default
+title: Where Jason Thompson thinks out loud
+---
+
+{% for post in paginator.posts %}
+  <article>
+    <div class="info group">
+      <div class="published-on"><time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time> </div>
+    </div><!-- info-group -->
+
+    <header class="article-header">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    </header>
+
+    <div class="article-wrap">
+      {{ post.content }}
+    </div><!-- article-wrap -->
+  </article>
+
+ {% endfor %}
+
+
+<!--  {% if paginator.previous_page %} -->
+<!--  <a href="/page{{paginator.previous_page}}" title="newer posts" class="pagination-previous">newer posts</a> -->
+<!--  {% endif %} -->
+
+<!--  {% if paginator.next_page %} -->
+<!--  <a href="/page{{paginator.next_page}}" title="older posts" class="pagination-next">older posts</a> -->
+<!--  {% endif %} -->
