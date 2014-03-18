@@ -1,6 +1,8 @@
-name: Your New Jekyll Site
+name: Where Jason Thompson thinks out loud 
 markdown: redcarpet
 pygments: true
 timezone: Canada/Eastern
 permalink: /:year/:month/:title
 paginate: 5
+tag_archive:
+  path: /tag/

@@ -273,10 +273,10 @@ article .article-wrap a {
   colour: #2b7ea6; }
 
 .pagination-previous {
-  display:inline;
+  margin-left:27%;
 }
 .pagination-next {
-  margin-left: 27%;
+  display: inline;
 }
 
 #comments {

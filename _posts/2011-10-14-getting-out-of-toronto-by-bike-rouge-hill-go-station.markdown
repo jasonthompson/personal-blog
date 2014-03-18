@@ -25,7 +25,7 @@ comments: []
 <figure> <img src="/images/2011/10/rouge-hill-go-station.jpg" alt="Rouge Hill GO Station" />
 
  <figcaption>Rouge Hill GO Station</figcaption> </figure> 
-My favourite roads for bike rides are low traffic rural roads. As a cyclist I’m probably not alone in this preference. But one of my biggest challenges as a cyclist living car-free in a major city is getting to these types of roads without spending hours riding through the suburbs.<a id="more"></a><a id="more-12"></a> In the interest of helping other Toronto cyclists, I’ll post some of my favourite routes on this blog.
+y favourite roads for bike rides are low traffic rural roads. As a cyclist I’m probably not alone in this preference. But one of my biggest challenges as a cyclist living car-free in a major city is getting to these types of roads without spending hours riding through the suburbs.<a id="more"></a><a id="more-12"></a> In the interest of helping other Toronto cyclists, I’ll post some of my favourite routes on this blog.
 
 
 

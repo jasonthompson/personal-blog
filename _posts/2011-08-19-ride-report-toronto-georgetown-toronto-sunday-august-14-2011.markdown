@@ -77,7 +77,7 @@ One of the other disadvantages of the circuitous route I’d followed in the mor
 
 
 
-Mississauga abruptly begins at 9th line near Eglinton. To my right the landscape was decidedly rural, but to my left were endless rows of townhouses. I turned onto Eglinton and rode it for what seemed like hours. Of course I had underestimated how long I’d have to ride this suburban thoroughfare before reaching the relative peace of the bike path, which starts at the edge of Toronto.
+ississauga abruptly begins at 9th line near Eglinton. To my right the landscape was decidedly rural, but to my left were endless rows of townhouses. I turned onto Eglinton and rode it for what seemed like hours. Of course I had underestimated how long I’d have to ride this suburban thoroughfare before reaching the relative peace of the bike path, which starts at the edge of Toronto.
 
 
 

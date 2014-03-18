@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="monthly-archive">
+  <div>
+    <span class="title">Monthly archive for {{page.year}}/{{page.month}}</span>
+  </div>
+  <div>
+    <ul>
+
+      <div id="content">
+        <h1>Articles</h1>
+
+        <ul class='article_list'>
+          {% for post in site.posts limit: 5 %}
+          <li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+          <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
+          </li>
+          {% endfor %}
+
+        </ul>
+      </div><!-- content -->
+
+    </ul>
+  </div>
+</div>

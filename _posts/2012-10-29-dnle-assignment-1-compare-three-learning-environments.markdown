@@ -30,7 +30,7 @@ comments: []
 <a href="http://www.codecademy.com/">Codeacademy</a> is an online learning environment for learning to code in various programming languages. I completed their core set of javascript courses in a few weeks. There is a set of courses for a given programming language with each course concentrating on a specific aspect of the language (e.g., "Introduction to Functions"). Each of the short courses is divided into single page sections. The left side of the page provides textual explanation followed by some exercises while the rest of the screen is occupied by an code editor. Students use the editor to write and evaluate the code to complete the exercises. The system gives each user badges for various learning achievements.
 
 <figure> 
-<img src="http://jthompson.ca/wp-content/uploads/2012/10/Codeacademy.png" alt="codeacademy screenshot" /><figcaption> An page from Codeacademy's jQuery tutorial.</figcaption> </figure>
+<img src="/images/2012/10/Codeacademy.png" alt="codeacademy screenshot" /><figcaption> An page from Codeacademy's jQuery tutorial.</figcaption> </figure>
 
 
 
@@ -54,7 +54,7 @@ comments: []
 
 Inspired by an <a href="http://bavatuesdays.com/the-glass-bees/">edupunk</a> philosphy, <a href="http://ds106.us">Digital Storytelling, also known as ds106</a>, is the online hub of a network of learners. ds106 is connected to a program offered at the University of Mary Washington, but allows Open Paticipants, online students, to join the program at any point during the term and participate as much as they want. Each student is expected to build an online identity through his/ her own blog and various social media sharing apps such as <a href="http://flickr.com">Flickr</a> or <a href="http://twitter.com">Twitter</a>. As such, there is no online course software. Instead, the ds106 web page aggregates the work of the students, the lectures and the assignments.
 
-<figure> <img src="http://jthompson.ca/wp-content/uploads/2012/10/ds106.png" alt="The ds106 home page" /><figcaption> The ds106 home page</figcaption> </figure>
+<figure> <img src="/images/2012/10/ds106.png" alt="The ds106 home page" /><figcaption> The ds106 home page</figcaption> </figure>
 
 
 

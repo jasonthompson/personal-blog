@@ -17,22 +17,22 @@ tags:
 - visual journal
 comments: []
 ---
-[caption id="" align="alignnone" width="500" caption="No, this isn't my drink"]<img title="IMG_20120922_182231.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120922_182231.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="No, this isn't my drink"]<img title="IMG_20120922_182231.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120922_182231.jpg" />[/caption]
 
 
 
-[caption id="" align="alignnone" width="500" caption="Leaving so soon."]<img title="IMG_20120922_192612.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120922_192612.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="Leaving so soon."]<img title="IMG_20120922_192612.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120922_192612.jpg" />[/caption]
 
 
 
-[caption id="" align="alignnone" width="500" caption="Lost opportunity?"]<img title="IMG_20120922_201029.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120922_201029.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="Lost opportunity?"]<img title="IMG_20120922_201029.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120922_201029.jpg" />[/caption]
 
 
 
-[caption id="" align="alignnone" width="500" caption="Slide"]<img title="IMG_20120922_200352.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120922_200352.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="Slide"]<img title="IMG_20120922_200352.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120922_200352.jpg" />[/caption]
 
 
 
-[caption id="" align="alignnone" width="500" caption="Stay"]<img title="IMG_20120922_214447.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120922_214447.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="Stay"]<img title="IMG_20120922_214447.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120922_214447.jpg" />[/caption]
 
 

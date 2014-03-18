@@ -15,18 +15,18 @@ tags:
 - observations
 comments: []
 ---
-<img title="IMG_20121008_184243.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20121008_184243.jpg" />
+<img title="IMG_20121008_184243.jpg" class="alignnone" alt="image" src="/images/2012/10/wpid-IMG_20121008_184243.jpg" />
 
 
 
-<img title="IMG_20121008_184127.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20121008_184127.jpg" />
+<img title="IMG_20121008_184127.jpg" class="alignnone" alt="image" src="/images/2012/10/wpid-IMG_20121008_184127.jpg" />
 
 
 
-<img title="IMG_20120927_192157.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20120927_192157.jpg" />
+<img title="IMG_20120927_192157.jpg" class="alignnone" alt="image" src="/images/2012/10/wpid-IMG_20120927_192157.jpg" />
 
 
 
-<img title="IMG_20120924_174148.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/10/wpid-IMG_20120924_174148.jpg" />
+<img title="IMG_20120924_174148.jpg" class="alignnone" alt="image" src="/images/2012/10/wpid-IMG_20120924_174148.jpg" />
 
 

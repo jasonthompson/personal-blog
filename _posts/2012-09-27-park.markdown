@@ -16,10 +16,10 @@ tags:
 - urban landscape
 comments: []
 ---
-[caption id="" align="alignnone" width="500" caption="parking"]<img title="IMG_20120924_172510.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120924_172510.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="parking"]<img title="IMG_20120924_172510.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120924_172510.jpg" />[/caption]
 
 
 
-[caption id="" align="alignnone" width="500" caption="parked"]<img title="IMG_20120924_174148.jpg" class="alignnone" alt="image" src="http://jthompson.ca/wp-content/uploads/2012/09/wpid-IMG_20120924_174148.jpg" />[/caption]
+[caption id="" align="alignnone" width="500" caption="parked"]<img title="IMG_20120924_174148.jpg" class="alignnone" alt="image" src="/images/2012/09/wpid-IMG_20120924_174148.jpg" />[/caption]
 
 

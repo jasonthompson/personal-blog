@@ -111,7 +111,7 @@ I managed, however, to make the turn. It was nice to get away from the traffic. 
 <figcaption>Looking North from Hockley Valley.</figcaption> </figure> <figure><img src="/images/2011/08/nature-break-in-loretto.jpg" alt="" />
 
 <figcaption>Break in Loretto.</figcaption> </figure> 
-My legs were sore, but the rest of the trip through the valley flew by. In Loretto I stopped for a break at an abandoned-looking baseball diamond. I had been eating and drinking as I rode, so I was in good shape for my return trip.
+y legs were sore, but the rest of the trip through the valley flew by. In Loretto I stopped for a break at an abandoned-looking baseball diamond. I had been eating and drinking as I rode, so I was in good shape for my return trip.
 
 
 

@@ -114,7 +114,7 @@ I’m thinking about tourism vs. training when I hit a series of difficult hills
 
 
 
-My efforts are rewarded by a short eastward trip up Durham Highway 47 into seemingly stronger headwinds. The highway seems busy, but after seeing no traffic to speak of over the last hour, any amount of traffic would seem excessive. To make matters worse, there’s only foot and a half of broken shoulder keeping me away from the dump trucks that seem to clog the highway this morning. So when Annina’s Bakeshop and Cafe finally comes into view, I’m only too happy to pull into the parking lot.
+y efforts are rewarded by a short eastward trip up Durham Highway 47 into seemingly stronger headwinds. The highway seems busy, but after seeing no traffic to speak of over the last hour, any amount of traffic would seem excessive. To make matters worse, there’s only foot and a half of broken shoulder keeping me away from the dump trucks that seem to clog the highway this morning. So when Annina’s Bakeshop and Cafe finally comes into view, I’m only too happy to pull into the parking lot.
 
 
 

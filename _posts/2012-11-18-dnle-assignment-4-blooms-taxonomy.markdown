@@ -19,15 +19,15 @@ tags:
 comments: []
 ---
 <div class="note">
-  
+
     This is part of a series of posts I'm doing related to <a href="http://venture-lab.org/education">Designing a New Learning Environment</a>, an online course I'm taking through Stanford University's Venture Lab. You can find all the posts in this series <a href="/topics/dnle/">here</a>.
-  
 
 
-  
-  
+
+
+
     This assignment was to find an educational technology that addresses each of the six levels of <a href="http://en.wikipedia.org/wiki/Bloom's_Taxonomy" title="Bloom's Taxonomy on Wikipedia">Bloom's Taxonomy</a>.
-  
+
 
 
 </div>
@@ -42,7 +42,7 @@ Tool: <a href="https://itunes.apple.com/ca/app/flashcards*/id403199818?mt=8">Fla
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/flashcards-app.jpg" alt="flashcards" />
+<img src="/images/2012/11/flashcards-app.jpg" alt="flashcards" />
 
 
 
@@ -56,7 +56,7 @@ Tool: <a href="http://diigo.com">Diigo</a>
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/diigo.jpg" alt="Bookmarking a site with the Diigo browser extension" />
+<img src="/images/2012/11/diigo.jpg" alt="Bookmarking a site with the Diigo browser extension" />
 
 
 
@@ -70,7 +70,7 @@ Tool: <a href="http://pinterest.com">Pinterest</a>
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/pinterest.png" alt="Pinterest" />
+<img src="/images/2012/11/pinterest.png" alt="Pinterest" />
 
 
 
@@ -84,7 +84,7 @@ Tool: <a href="http://flickr.com">Flickr slideshow editor</a>
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/flickr.jpg" alt="Flickr slideshow editor" />
+<img src="/images/2012/11/flickr.jpg" alt="Flickr slideshow editor" />
 
 
 
@@ -98,7 +98,7 @@ Tools: <a href="http://www.tumblr.com">Tumblr</a>, <a href="http://www.wordpress
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/comments.jpg" alt="Blog commenting on any blogging system" />
+<img src="/images/2012/11/comments.jpg" alt="Blog commenting on any blogging system" />
 
 
 
@@ -112,7 +112,7 @@ Tool: <a href="http://www.apple.com/ca/ilife/imovie/">iMovie video editor</a>
 
 
 
-<img src="http://jthompson.ca/wp-content/uploads/2012/11/video-editor.jpg" alt="iMovie" />
+<img src="/images/2012/11/video-editor.jpg" alt="iMovie" />
 
 
 
