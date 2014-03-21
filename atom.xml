@@ -1,0 +1,32 @@
+---
+layout: nil
+title: "Where Jason Thompson thinks out loud"
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ page.title }}</title>
+  <link href="http://www.jthompson.ca"/>
+  <link type="application/atom+xml" rel="self" href="http://www.jthompson.ca/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://jthompson.ca/</id>
+  <author>
+    <name>Jason Thompson</name>
+  </author>
+
+  {% for post in site.posts %}
+
+  <entry>
+    <id>http://jthompson.ca{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://www.jthompson.ca{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Jason Thompson</name>
+      <uri>http://www.jthompson.ca/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
+

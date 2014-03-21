@@ -1,8 +1,10 @@
 name: Where Jason Thompson thinks out loud 
-markdown: redcarpet
+markdown: kramdown 
+exclude: [Guardfile]
 pygments: true
 timezone: Canada/Eastern
 permalink: /:year/:month/:title
 paginate: 5
-tag_archive:
-  path: /tag/
+tag_dir: 'topics'
+date_archive:
+  path: /archive/

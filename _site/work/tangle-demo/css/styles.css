@@ -1,0 +1,30 @@
+@import url("../js/TangleKit/TangleKit.css");
+
+body {
+    font-family:"ratio", helvetica, sans-serif;
+    line-height: 1.5;
+    padding:0;
+}
+.dataVar {
+    font-weight: 500;
+    background:#eee;
+}
+
+#example-wrapper {
+    margin-left:0;
+    max-width:600px;
+    border: 2px solid #bbb;
+    padding: 0 2.5% 1% 2.5%;
+    border-radius:20px 20px 20px 20px;
+}
+h1 {
+    margin-bottom:-.5em;
+    font-size: 1.6em;
+    font-weight:700;
+}
+
+h2 {
+    margin-bottom:-.5em;
+    font-size:1.25em;
+    font-weight:700;
+}

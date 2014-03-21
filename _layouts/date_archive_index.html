@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="category-archive">
+    <div id="content">
+  <h1>{{ page.title }}</h1>
+
+  <ul class='article_list'>
+    {% for post in site.posts %}
+    <li>
+      <time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+      <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div><!-- content -->
