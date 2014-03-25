@@ -1,1 +1,1 @@
-scp -r _site/* jason@jthompson.ca:www/jthompson.ca/public_html/
+rsync -avze ssh _site/ jason@jthompson.ca:www/jthompson.ca/public_html/

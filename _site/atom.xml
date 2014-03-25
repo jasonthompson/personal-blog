@@ -4,12 +4,66 @@
   <title>Where Jason Thompson thinks out loud</title>
   <link href="http://www.jthompson.ca"/>
   <link type="application/atom+xml" rel="self" href="http://www.jthompson.ca/atom.xml"/>
-  <updated>2014-03-21T06:05:27-04:00</updated>
+  <updated>2014-03-25T07:04:17-04:00</updated>
   <id>http://jthompson.ca/</id>
   <author>
     <name>Jason Thompson</name>
   </author>
 
+  
+
+  <entry>
+    <id>http://jthompson.ca/2014/03/mutt-they-still-make-that</id>
+    <link type="text/html" rel="alternate" href="http://www.jthompson.ca/2014/03/mutt-they-still-make-that"/>
+    <title>Mutt?!?</title>
+    <updated>2014-03-24T00:00:00-04:00</updated>
+    <author>
+      <name>Jason Thompson</name>
+      <uri>http://www.jthompson.ca/</uri>
+    </author>
+    <content type="html">&lt;p&gt;So I’ve been using &lt;a href=&quot;&quot;&gt;Mutt&lt;/a&gt; as my primary email client for a few days. Before I justify my choice of email clients, let me give some background. I run my own email server. So far this has not lead to the kind of pain I was told to expect. I’ve had 100% uptime to my knowledge. But my main issue has been with choosing an email client. My main computer at home is a linux laptop. I don’t like Evolution, which is really just an Outlook clone, Kmail is a UI nightmare and Mozilla stopped developing Thunderbird. I also needed a way of checking my personal email at work. For a while, &lt;a href=&quot;&quot;&gt;Roundcube&lt;/a&gt;, a self-hosted webmail app, solved my problems, but it had its issues, the biggest of which was its lack of keyboard shortcuts.&lt;/p&gt;
+</content>
+  </entry>
+  
+
+  <entry>
+    <id>http://jthompson.ca/2014/03/linux-toolbox-1</id>
+    <link type="text/html" rel="alternate" href="http://www.jthompson.ca/2014/03/linux-toolbox-1"/>
+    <title>Linux Toolbox: lsof -i</title>
+    <updated>2014-03-22T00:00:00-04:00</updated>
+    <author>
+      <name>Jason Thompson</name>
+      <uri>http://www.jthompson.ca/</uri>
+    </author>
+    <content type="html">&lt;div class=&quot;note&quot;&gt;
+  &lt;p&gt;This post is part of a &lt;a href=&quot;/topic/linx-toolbox&quot;&gt;series of posts&lt;/a&gt; about Linux tools I use in my everyday work. I’m not a command line wizard–in fact I am doing these posts to help me retain some of what I learn exploring man pages. With any luck, others will find them useful too.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;lsof--i&quot;&gt;lsof -i&lt;/h2&gt;
+&lt;p&gt;Want to find out if a given port is already in use before firing up a server? Or perhaps a process has crashed, but left a server bound to a given port. This recently happened to me when jekyll crashed with the error &lt;code&gt;Address already in use - bind(2).&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You could use &lt;code&gt;ps aux | grep jekyll&lt;/code&gt; or &lt;code&gt;grep ruby&lt;/code&gt; in this case, but grepping the actual server, Webkit, doesn’t return anything. But, knowing it’s running on port 4000, you can type: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$-&amp;gt;lsof -i tcp:4000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;…which produces output similar to this (I’ve omitted the last three columns due to spacial constraints):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;COMMAND   PID  USER   FD   TYPE DEVICE
+ruby    20306 jason    7u  IPv4  76997
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;lsof&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; searches open files. The briefest glance at lsof’s man page shows that I’ve only touched the tip of the iceberg here in terms its capabilities. But that’s how I learn: I discover a tool to solve a particular problem and then, once I’m comfortable with that limited use, I dig into the tool’s other capabilities bit by bit as I have time.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I was pronouncing it “ellsoff”, so it took me a while to notice that it’s “LS” (list) + “OF” (open file). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   
 
   <entry>
@@ -514,7 +568,7 @@
 
 &lt;p&gt;For the purposes of this ride, I took a multimodal approach to getting to the starting point, riding the 5:15 a.m. Yonge St. bus north to it’s final stop at Steeles Ave. From there I had a 20 km ride to the brevet’s starting point. I arrived at Yonge and Steeles at around 5:45, which left me plenty of time to get to my destination by 7:30 a.m.&lt;/p&gt;
 
-&lt;p&gt;I love riding at this time of day. Even suburban thoroughfares like Steeles are largely empty so early on a Saturday morning. My route took me along Steeles for about 9 kms before winding northwest through empty industrial land. I took it easy, conserving my energy for the day’s ride, but still found myself moving too quickly, so when the eastern horizon came into view with its almost garish dawn colours, I forced myself to stop and take pictures. These two scenes, found within 100 meters of each other, screamed J.G. Ballard to me. The results can be seen below and at the top of the post.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;I love riding at this time of day. Even suburban thoroughfares like Steeles are largely empty so early on a Saturday morning. My route took me along Steeles for about 9 kms before winding northwest through empty industrial land. I took it easy, conserving my energy for the day’s ride, but still found myself moving too quickly, so when the eastern horizon came into view with its almost garish dawn colours, I forced myself to stop and take pictures. These two scenes, found within 100 meters of each other, screamed J.G. Ballard to me. The results can be seen below and at the top of the post.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/09/ballardian-dawn-2.jpg&quot; alt=&quot;Ballardian Dawn 2&quot; /&gt;&lt;/p&gt;
 
@@ -538,7 +592,7 @@ In the end (or, at the beginning) I arrived an hour and a half before the ride w
 
 &lt;p&gt;Now I grew up in British Columbia’s Fraser Valley from which mountains where always visible to the north and south, at least on rare clear days, so mountains are in my blood. I think this is why I always forget about Southern Ontario’s hilliness. You don’t necessarily see these hills from far away as you would a mountain. Instead they just sort of pop out at you as you’re about to climb them. But you would think when I see road names like Mt. Albert Road on a route sheet, I would expect to do some climbing.&lt;/p&gt;
 
-&lt;p&gt;So as I approached the town of Mt. Albert, I reset my expectations. I was still making good time and a little ways past Mt. Albert I caught up with Harry who was sitting at a crossroads looking a bit confused about what direction to take. We rode together for a while and chatted about this and that. Invariably our conversation turned toward cycling gear. I should note here that my bike, a touring bike with stainless steel fenders, a hub generator, gearing optimized for fully loaded climbing, peddles with clips and leather straps and a Brooks saddle, really stood out among the other randonneurs’ bikes. Although I didn’t get a close look at all of their bikes, most of them seemed to be racing bikes (I did see a couple of Brooks saddles, however). So invariably throughout the day, people would ask me about my bike. I must admit that I was hoping to see a wider variety of bikes. I plan on building up a randonneur bike of my own when funds permit, but it will be based on a more traditional French design. And having ridden an aluminum framed bike for a few years over Toronto’s sometimes bumpy city streets, I will never ride anything but steel again.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;So as I approached the town of Mt. Albert, I reset my expectations. I was still making good time and a little ways past Mt. Albert I caught up with Harry who was sitting at a crossroads looking a bit confused about what direction to take. We rode together for a while and chatted about this and that. Invariably our conversation turned toward cycling gear. I should note here that my bike, a touring bike with stainless steel fenders, a hub generator, gearing optimized for fully loaded climbing, peddles with clips and leather straps and a Brooks saddle, really stood out among the other randonneurs’ bikes. Although I didn’t get a close look at all of their bikes, most of them seemed to be racing bikes (I did see a couple of Brooks saddles, however). So invariably throughout the day, people would ask me about my bike. I must admit that I was hoping to see a wider variety of bikes. I plan on building up a randonneur bike of my own when funds permit, but it will be based on a more traditional French design. And having ridden an aluminum framed bike for a few years over Toronto’s sometimes bumpy city streets, I will never ride anything but steel again.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/09/vampire-parking-only.jpg&quot; alt=&quot;Vampire Parking Only&quot; /&gt;&lt;/p&gt;
 
@@ -608,7 +662,7 @@ Soon, Harry and I arrived at the first control, a small gas station in Udora. We
 
 &lt;p&gt;But this route to Kleinburg is only about 34 kilometres, so I decided to use the town as a starting point for a longer foray into the countryside. A loop up through the Hockley Valley looked like just the ticket. The pictures I found online looked beautiful.I’d take Nashville Road/ Countryside Drive over to Airport road, follow that north to Hockley Valley Road and cross back over to Country Road 50 at Loretto, before continuing back down to Countryside Drive via 50, Old Church Road and The Gore Road.&lt;/p&gt;
 
-&lt;p&gt;I also decided that I would use the BC Randonneur’s cue sheet template to get used to following a cue sheet. The week before, Google Maps instructions had proven difficult to read and, besides, I thought, I should get used to reading a proper cue sheet in the lead-up to my first 200 kilometre brevet at the beginning of September.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;I also decided that I would use the BC Randonneur’s cue sheet template to get used to following a cue sheet. The week before, Google Maps instructions had proven difficult to read and, besides, I thought, I should get used to reading a proper cue sheet in the lead-up to my first 200 kilometre brevet at the beginning of September.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/sky-before-dawn.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -620,7 +674,7 @@ On Saturday morning I woke at 4:00, an hour before my alarm, so I decided that I
 
 &lt;p&gt;One thing many Randonneurs suggest having is a headlamp to see your cue sheet and computer in the dark. I didn’t have one, but wasn’t worried since the dark part of my route would be in the city under streetlights. One look at my cycling cockpit proved the folly of that assumption.&lt;/p&gt;
 
-&lt;p&gt;I headed east to the end of Wallace to the West Toronto Rail Path and took that north. It was deserted at that time of the morning and I enjoyed the 800 metres between Wallace and the end of the line. From there I wove my way up to Albion road, which eventually led me to the upper section of the Humber Bike Trail. The city was quiet, so brief sections of Davenport, Keel, Weston Road and Albion where fine.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;I headed east to the end of Wallace to the West Toronto Rail Path and took that north. It was deserted at that time of the morning and I enjoyed the 800 metres between Wallace and the end of the line. From there I wove my way up to Albion road, which eventually led me to the upper section of the Humber Bike Trail. The city was quiet, so brief sections of Davenport, Keel, Weston Road and Albion where fine.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/humber-river-dawn.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -632,13 +686,13 @@ On Saturday morning I woke at 4:00, an hour before my alarm, so I decided that I
 
 &lt;figcaption&gt;Humber river trail.&lt;/figcaption&gt;
 &lt;p&gt;&amp;lt;/figure&amp;gt; 
-The sky started to brighten as I followed the winding Humber River. Wisps of mist hung over the grasslands and the sky was streaked with beautiful oranges. I took a lot of pictures on this six kilometre section of bike path, which slowed me down a bit, but I’ve been guilty of not taking enough in the past. Along with these photo delays, I took a few wrong turns, so I was a bit behind schedule when I finally emerged from the path and found Islington, my road to Kleinburg. But the sun was rising and I was leaving the city behind me, so I my spirits were up.&lt;figure /&gt;&lt;/p&gt;
+The sky started to brighten as I followed the winding Humber River. Wisps of mist hung over the grasslands and the sky was streaked with beautiful oranges. I took a lot of pictures on this six kilometre section of bike path, which slowed me down a bit, but I’ve been guilty of not taking enough in the past. Along with these photo delays, I took a few wrong turns, so I was a bit behind schedule when I finally emerged from the path and found Islington, my road to Kleinburg. But the sun was rising and I was leaving the city behind me, so I my spirits were up.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/the-sun-appears.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;figcaption&gt;Sunrise.&lt;/figcaption&gt;
 &lt;p&gt;&amp;lt;/figure&amp;gt; 
-I arrived in Kleinburg without incident. Islington is a major thoroughfare, but it was still early, so I had a quiet ride. I made a note to myself that this quietude would be gone on my return journey, but that wouldn’t be for several hours.&lt;figure /&gt;&lt;/p&gt;
+I arrived in Kleinburg without incident. Islington is a major thoroughfare, but it was still early, so I had a quiet ride. I made a note to myself that this quietude would be gone on my return journey, but that wouldn’t be for several hours.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/morning-in-kleinburg.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -646,7 +700,7 @@ I arrived in Kleinburg without incident. Islington is a major thoroughfare, but 
 &lt;p&gt;&amp;lt;/figure&amp;gt; 
 During my brief photo stop in Kleinburg, two men on racing bikes sped by me and turned left on Nashville. I caught up to them at the first intersection ready to draft, but they were really slow getting started, so I sped by them. They caught up to me again at a set of lights and we chatted as we waited for a green. They lived nearby and were sticking to a flatter landscape than I for their 100 kilometre ride. I rode off ahead of them when the light turned green. We were riding southwest, so I could see one of their shadows as he drafted me until the next intersection. After that I lost him. I think they headed south.&lt;/p&gt;
 
-&lt;p&gt;The day before I had bought a new squeezable water bottle, allowing me to easily rehydrate as I rode, so I took advantage of this. By Mono Road, about 8:20 a.m., I was ready for more water and a snack, so I stopped at a gas station. The hills I’d be climbing up the Niagara Escarpment where coming into view, which provided further motivation to stop for few minutes.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;The day before I had bought a new squeezable water bottle, allowing me to easily rehydrate as I rode, so I took advantage of this. By Mono Road, about 8:20 a.m., I was ready for more water and a snack, so I stopped at a gas station. The hills I’d be climbing up the Niagara Escarpment where coming into view, which provided further motivation to stop for few minutes.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/look-back-down-escarpment.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -658,7 +712,7 @@ As I laboured up this series of hills, I thanked myself for my nutritional/ hydr
 
 &lt;p&gt;By 9ish I was in Mono Mills. I had depleted most of the water I bought half an hour earlier, so I bought some Gatorade and got back on the road. Hockley Valley road was still 10 kilometres away. I was partially repaid for the morning’s climb with a wild curving descent into Hockley Valley. However my joy at this descent was tempered by the realization that I’d have to make up this altitude again coming out of the valley. I was also more than a little concerned that I wouldn’t be able to slow down from my top speed of 69.6 kmph in order to make the turn onto Hockley Valley Road.&lt;/p&gt;
 
-&lt;p&gt;I managed, however, to make the turn. It was nice to get away from the traffic. Within minutes I was in Hockley, where I took my first wrong turn of the trip, climbing the steepest hill yet before realizing my mistake.&lt;figure /&gt;&lt;/p&gt;
+&lt;p&gt;I managed, however, to make the turn. It was nice to get away from the traffic. Within minutes I was in Hockley, where I took my first wrong turn of the trip, climbing the steepest hill yet before realizing my mistake.&lt;figure&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2011/08/hockley-valley-looking-north.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 

@@ -203,6 +203,20 @@ header#main {
 article {
   margin-bottom: 2em;
   width: 85%; }
+  article code {
+    font-family: "adaptive-mono-1", "adaptive-mono-2", mono;
+    background: #eee;
+    font-size: .75em; }
+  article pre {
+    background: #eee;
+    padding: .12em;
+    margin-bottom: 1em; }
+  article sup {
+    vertical-align: super;
+    font-size: .60em;
+    padding-left: 0.15em; }
+  article .footnotes {
+    font-size: 0.80em; }
 
 article header h1 {
   margin-left: 32%;
