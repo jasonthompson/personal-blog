@@ -7,9 +7,11 @@ title: Articles
   <h1>{{page.title}}</h1>
   <ul class="article_list">
     {% for post in site.posts %}
-      <li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
-      <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
-      </li>
+        <li>
+          <time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+          <a href={{post.url}} title={{post.title}} class="title">{{post.title}}</a>
+          <div class="tags">{{post.tags | tag_list_to_sentence}}</div>
+        </li>
     {% endfor %}
   </ul>
 </div>

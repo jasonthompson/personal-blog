@@ -8,7 +8,11 @@ layout: default
 
   <ul class='article_list'>
     {% for post in page.tagged_posts %}
-      {% include article_list_item.html %} 
+        <li>
+          <time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+          <a href={{post.url}} title={{post.title}} class="title">{{post.title}}</a>
+          <div class="tags">{{post.tags | tag_list_to_sentence}}</div>
+        </li>
     {% endfor %}
 
   </ul>
