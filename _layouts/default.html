@@ -50,9 +50,7 @@
         <h2>Recent Posts</h2>
         <ul class='article_list'>
           {% for post in site.posts limit: 5 %}
-          <li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
-          <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
-          </li>
+            {% include article_list_item.html %}
           {% endfor %}
 
         </ul>

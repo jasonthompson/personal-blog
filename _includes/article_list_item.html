@@ -1,0 +1,4 @@
+<li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+    <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
+    <div class="tags">{{post.tags | array_to_sentence_string }}</div>
+</li>
