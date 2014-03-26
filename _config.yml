@@ -1,5 +1,5 @@
-name: Where Jason Thompson thinks out loud
-markdown: kramdown
+name: Where Jason Thompson thinks out loud 
+markdown: kramdown 
 exclude: [Guardfile]
 pygments: true
 timezone: Canada/Eastern

@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-<!-- syntax highlighting CSS -->
-<link rel="stylesheet" href="/css/syntax.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
-<!-- Custom CSS -->
+    <!-- Custom CSS -->
 
-<link rel="stylesheet" href="/css/screen.css">
+    <link rel="stylesheet" href="/css/screen.css">
 
-<script type="text/javascript" src="http://use.typekit.com/vfg6lmf.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="http://use.typekit.com/vfg6lmf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
             <![endif]-->
 
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-<div class="page">
+    <div class="page">
 
-  <header id="main">
-    <nav><ul><li><a href="/" title="Home page">Home</a></li>
-        <li><a href="/archive" title="Article archive">Articles</a></li>
-        <li><a href="#" title="About this site">About</a></li></nav>
-      <p id="tagline"><a href="/" title="home">{{ site.name }}</a></p>
-    </header>
+      <header id="main">
+        <nav><ul><li><a href="/" title="Home page">Home</a></li>
+            <li><a href="/archive" title="Article archive">Articles</a></li>
+            <li><a href="#" title="About this site">About</a></li></nav>
+        <p id="tagline"><a href="/" title="home">{{ site.name }}</a></p>
+      </header>
 
-    {{ content }}
+        {{ content }}
 
     <footer>
       <div id="footer-left">
@@ -44,26 +44,24 @@
 
         <h2>Copyright</h2>
         <p></a>The material on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons By-NC-SA License</a>.</p>
-    </div><!--footer-left -->
+      </div><!--footer-left -->
 
-    <div id="footer-right">
-      <h2>Recent Posts</h2>
-      <ul class='article_list'>
-        {% for post in site.posts limit: 5 %}
-        <li>
-          <time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
-          <a href={{post.url}} title={{post.title}} class="title">{{post.title}}</a>
-          <div class="tags">{{post.tags | tag_list_to_sentence}}</div>
-        </li>
-        {% endfor %}
+      <div id="footer-right">
+        <h2>Recent Posts</h2>
+        <ul class='article_list'>
+          {% for post in site.posts limit: 5 %}
+          <li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
+          <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
+          </li>
+          {% endfor %}
 
-      </ul>
-      <h2>Elsewhere</h2>
-      <ul class="article_list">
-        <li><a "href="http://www.120babies.ca/" title="My wife's weblog">MM's Weblog</a></li>
-        <li><a href="http://www.twitter.com/jasonthompson" title="Follow me on Twitter">Follow me on Twitter</a></li>
-      </ul>
-    </div><!--footer-right-->
-  </footer>
+        </ul>
+        <h2>Elsewhere</h2>
+        <ul class="article_list">
+          <li><a "href="http://www.120babies.ca/" title="My wife's weblog">MM's Weblog</a></li>
+          <li><a href="http://www.twitter.com/jasonthompson" title="Follow me on Twitter">Follow me on Twitter</a></li>
+        </ul>
+      </div><!--footer-right-->
+    </footer>
   </body>
-  </html>
+</html>
