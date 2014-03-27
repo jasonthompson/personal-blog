@@ -31,12 +31,12 @@
       <header id="main">
         <nav><ul><li><a href="/" title="Home page">Home</a></li>
             <li><a href="/archive" title="Article archive">Articles</a></li>
-            <li><a href="#" title="About this site">About</a></li></nav>
-        <p id="tagline"><a href="/" title="home">{{ site.name }}</a></p>
+            <li><a href="/about.html" title="About this site">About</a></li></nav>
+        <p id="tagline">{{ site.name }}</p>
       </header>
-
+      <div id="content">
         {{ content }}
-
+      </div><!-- content -->
     <footer>
       <div id="footer-left">
         <h2 class="footer">Who?</h2>
@@ -50,9 +50,7 @@
         <h2>Recent Posts</h2>
         <ul class='article_list'>
           {% for post in site.posts limit: 5 %}
-          <li><time datetime={{ post.date}}>{{ post.date | date_to_string }}</time>
-          <a href={{ post.url }} title={{ post.title }} class="title">{{post.title}}</a>
-          </li>
+            {% include post_list_item.html %}
           {% endfor %}
 
         </ul>

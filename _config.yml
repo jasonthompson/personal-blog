@@ -1,4 +1,4 @@
-name: Where Jason Thompson thinks out loud 
+name: Where <a href="/about.html">Jason Thompson</a> thinks out loud 
 markdown: kramdown 
 exclude: [Guardfile]
 pygments: true

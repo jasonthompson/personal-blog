@@ -139,7 +139,7 @@ margin: 1em 0 1em 0; }
 
 img.right {
   float: right;
-margin: 1em; }
+  margin: 1.5em 1em 1em 1em; }
 
 
 
@@ -148,10 +148,6 @@ header#main {
   padding-bottom: 1%;
   width: 100%;
   overflow: hidden;
-
-  a {
-    text-decoration: none;
-  color: #3f3e3a; }
 
   a h1 {
     text-shadow: 0 1px 0 #fff;
@@ -179,7 +175,7 @@ header#main {
         display: inline;
         font-size: 1.1em;
         font-weight: 700;
-        margin-right:8em;
+        margin-right:23%;
       }
       li:first-child {
         margin-left:.9em;
@@ -212,6 +208,10 @@ font-weight: 200; }
 #content {
   margin:0 auto;
   width:65%;
+
+  p {
+    margin-left:11%;
+  }
 }
 #content h1 {
   margin:-10% 0 0 11%;
@@ -223,7 +223,7 @@ font-weight: 200; }
 /* Article */
 article {
   margin-bottom: 2em;
-  width: 85%; 
+  width: 85%;
 
   code {
     font-family:"adaptive-mono-1", "adaptive-mono-2", mono;
@@ -340,21 +340,32 @@ colour: #2b7ea6; }
 Article List
  */
 ul.article_list {
-  margin-top:1.5em;    margin-left:10%;
+  margin-top:1.5em;
+  margin-left:10%;
+
+  li {
+    margin-bottom:0.5em;
+
+    a.title {
+      font-weight:600;
+    }
+
+    time {
+      font-weight: 600;
+    }
+
+    .tags {
+      margin-top:-.5em;
+      font-size:.65em;
+      font-family:$alt-font;
+      font-weight: 300;
+    }
+    .tags a {
+      text-decoration:none;
+    }
+  }
 }
 
-footer ul.article_list {
-  margin-left:0;
-}
-.tags {
-  margin-top:-.5em;
-  font-size:.65em;
-  font-family:$alt-font;
-  font-weight: 300;
-}
-.tags a {
-  text-decoration:none;
-}
 /*
 Footer
  */
@@ -366,11 +377,18 @@ footer {
   margin-top: 5%;
   width: 100% auto;
   padding: .84%;
+  font-size: .75em;
+
+  ul.article_list {
+    margin:0.5em 0 0 0;
+    li div.tags {
+      font-size:0.75em;
+    }
+  }
 }
 
 footer p {
   font-family:$body-font;
-  font-size: .75em;
   font-weight: 400;
 color: #dad6ca; }
 
@@ -380,15 +398,8 @@ color: #dad6ca; }
 footer h2 {
   line-height: 1.2em;
   margin-top: 1em;
-  font-weight: 500;
-font-size: 1.2em; }
-footer ul.article_list {
-  margin-top:0;
-  font-size:.75em;
-}
-footer .tags {
-  font-size:.85em;
-}
+  font-weight: 600;
+  font-size: 1.5em; }
 footer #footer-left {
   padding: 1% 5% 1% 5%;
   background: transparent;
@@ -401,18 +412,3 @@ footer #footer-right {
   float: right;
 width: 50%; }
 
-@media screen and (max-width: 900px) {
-
-  header#main li a {
-  margin-right: -2em; }
-
-}
-
-@media screen and (max-width: 800px) {
-  header#main li a {
-    margin-right:-3em;
-    font-size:.85em;
-  }
-}
-@media screen and (max-width: 700px) {
-}

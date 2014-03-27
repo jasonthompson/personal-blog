@@ -130,16 +130,13 @@ img {
 
 img.right {
   float: right;
-  margin: 1em; }
+  margin: 1.5em 1em 1em 1em; }
 
 /* Header */
 header#main {
   padding-bottom: 1%;
   width: 100%;
   overflow: hidden; }
-  header#main a {
-    text-decoration: none;
-    color: #3f3e3a; }
   header#main a h1 {
     text-shadow: 0 1px 0 #fff;
     font-size: 1.2em;
@@ -164,7 +161,7 @@ header#main {
         display: inline;
         font-size: 1.1em;
         font-weight: 700;
-        margin-right: 8em; }
+        margin-right: 23%; }
       header#main nav ul li:first-child {
         margin-left: .9em; }
 
@@ -192,6 +189,8 @@ header#main {
 #content {
   margin: 0 auto;
   width: 65%; }
+  #content p {
+    margin-left: 11%; }
 
 #content h1 {
   margin: -10% 0 0 11%;
@@ -309,18 +308,19 @@ Article List
 ul.article_list {
   margin-top: 1.5em;
   margin-left: 10%; }
-
-footer ul.article_list {
-  margin-left: 0; }
-
-.tags {
-  margin-top: -.5em;
-  font-size: .65em;
-  font-family: "camigodos-web-1", "camigodos-web-2", helvetica, sans;
-  font-weight: 300; }
-
-.tags a {
-  text-decoration: none; }
+  ul.article_list li {
+    margin-bottom: 0.5em; }
+    ul.article_list li a.title {
+      font-weight: 600; }
+    ul.article_list li time {
+      font-weight: 600; }
+    ul.article_list li .tags {
+      margin-top: -.5em;
+      font-size: .65em;
+      font-family: "camigodos-web-1", "camigodos-web-2", helvetica, sans;
+      font-weight: 300; }
+    ul.article_list li .tags a {
+      text-decoration: none; }
 
 /*
 Footer
@@ -332,11 +332,15 @@ footer {
   clear: both;
   margin-top: 5%;
   width: 100% auto;
-  padding: .84%; }
+  padding: .84%;
+  font-size: .75em; }
+  footer ul.article_list {
+    margin: 0.5em 0 0 0; }
+    footer ul.article_list li div.tags {
+      font-size: 0.75em; }
 
 footer p {
   font-family: "chaparral-pro-1", "chaparral-pro-2", Georgia, serif;
-  font-size: .75em;
   font-weight: 400;
   color: #dad6ca; }
 
@@ -346,15 +350,8 @@ footer a {
 footer h2 {
   line-height: 1.2em;
   margin-top: 1em;
-  font-weight: 500;
-  font-size: 1.2em; }
-
-footer ul.article_list {
-  margin-top: 0;
-  font-size: .75em; }
-
-footer .tags {
-  font-size: .85em; }
+  font-weight: 600;
+  font-size: 1.5em; }
 
 footer #footer-left {
   padding: 1% 5% 1% 5%;
@@ -367,11 +364,3 @@ footer #footer-right {
   background: transparent;
   float: right;
   width: 50%; }
-
-@media screen and (max-width: 900px) {
-  header#main li a {
-    margin-right: -2em; } }
-@media screen and (max-width: 800px) {
-  header#main li a {
-    margin-right: -3em;
-    font-size: .85em; } }
