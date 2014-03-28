@@ -193,7 +193,7 @@ header#main {
     margin-left: 11%; }
 
 #content h1 {
-  margin: -10% 0 0 9%;
+  margin: -10% 0 0 11%;
   font-size: 1.6em;
   font-weight: 700;
   line-height: 1em; }
@@ -263,7 +263,7 @@ article .info {
   margin: .5% 0 0 9%;
   clear: left;
   float: left;
-  width: 18%; }
+  width: 16%; }
 
 article .info .tags {
   margin-top: .2em;
@@ -313,8 +313,7 @@ ul.article_list {
     ul.article_list li a.title {
       font-weight: 600; }
     ul.article_list li time {
-      font-weight: 600;
-      font-size: 0.85em; }
+      font-weight: 600; }
     ul.article_list li .tags {
       margin-top: -.5em;
       font-size: .65em;
